@@ -3,6 +3,7 @@ require 'logger'
 module Loggers
 
   def logger=(logs)
+    return unless logs.is_a?(Hash)
     output_logs_dir = logs['Dirname']
     output_logs_filename = logs['Filename']
 
