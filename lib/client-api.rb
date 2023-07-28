@@ -4,6 +4,7 @@ require "client-api/base"
 require "client-api/request"
 require "client-api/validator"
 require "client-api/loggers"
+require "rspec/rails"
 
 RSpec.configure do |config|
   config.add_setting :base_url

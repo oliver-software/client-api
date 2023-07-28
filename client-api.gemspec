@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec-rails", "~> 6.0.0"
   spec.add_development_dependency "byebug", "~> 11.0"
 
   spec.add_runtime_dependency "json-schema", '~> 2.8'
